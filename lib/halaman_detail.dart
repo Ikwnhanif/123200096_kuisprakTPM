@@ -21,7 +21,7 @@ class _HalamanDetailState extends State<HalamanDetail> {
         widget.favorite.add(widget.disease!);
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Ditambahkan ke Favorit'),
+            content: Text('Ditambahkan ke daftar Favorit'),
             duration: Duration(
               seconds: 2,
             ),
@@ -31,7 +31,7 @@ class _HalamanDetailState extends State<HalamanDetail> {
         widget.favorite.remove(widget.disease!);
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Dihapus dari Favorit'),
+            content: Text('Dihapus dari daftar Favorit'),
             duration: Duration(
               seconds: 2,
             ),
